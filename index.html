@@ -32,31 +32,32 @@
         .header img{
             height: 50px;
             margin-top: 20px;
-            margin-left: 70px;
+            margin-left: 23px;
         }
-        .container{
-    width: 90%;
-    margin: 0 auto;
-}
+        
         .half-width{
     width: 50%;
 }
-.header-section{
+.section-1{
     display: flex;
+    
     font-family: poppins;
     margin-top: 70px;
-   
-
-    
-    
+    background-color:#FEEAE9;
+    border-radius: 10px;
+    margin-left: 80px;
 }
-.header-section h1{
+
+.section-1 h1{
     font-size: 40px;
 }
 .content-area{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+
+ 
   
 
    
@@ -64,6 +65,8 @@
 span{
     font-size: 45px;
     font-style: bold;
+    color:#FF136F;
+;
 }
 /* .header-section .content-area{
     background-color: antiquewhite;
@@ -75,7 +78,8 @@ span{
     margin-bottom: 30px;
 }
 .my-btn a{
-    background-color: #ff5959;
+    background-color: #FF136F;
+
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -87,12 +91,12 @@ span{
 
 .image-area{
     display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    
+    
 }
-.image-area .avatar img{
+.image-area img{
     width: 300px;
+    padding-left: 120px;
 }
     
     </style>
@@ -110,34 +114,27 @@ span{
     </nav>
  </header>  
 
- <section>
-    <div class="container header-section">
-        <div class="content-area half-width">
-      <div class="main-title">
-</div>
-<h1>
-        Mi LED TV 4A PRO 32
-     </h1>
-     <p>
+ <section class="section-1">
+    <div class="content-area half-width">
+        <h1>
+            Mi LED TV 4A PRO 32
+         </h1>
+    <p>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor 
         do amet sint. Velit officia consequat duis enim velit mollit. 
         Exercitation veniam consequat sunt nostrud amet.
-          </p>
-     </p>
-     <span>$1289</span>
-     <div class="my-btn">
-        <a target="_blank" href="https://github.com/ushaakter486">BUY NOW</a>
-      </div>
-
-         <div class="image-area"> 
-         <div class="half-width image-area">
-          <div class="avatar">  
-            <img src="image/images/banner-images/tv.png" alt="">
-             </div>
-        </div>  
-      </div>
+    </p>
+    <span>$1289</span>
     
- </section>
+      <div class="my-btn">  
+      <a href="#">BUY NOW</a> 
+      </div>
+    </div>  
+    <div class="image-area half-width">
+      <img src="image/images/banner-images/tv.png" alt=""> 
+    </div>
+  </section> 
+  
  
 </body>
 </html>
